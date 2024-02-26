@@ -56,7 +56,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/sunny/aospa_sunny.mk \
     $(LOCAL_DIR)/surya/aospa_surya.mk \
     $(LOCAL_DIR)/vayu/aospa_vayu.mk \
-    $(LOCAL_DIR)/xiaomi13/aospa_xiaomi13.mk
+    $(LOCAL_DIR)/xiaomi13/aospa_xiaomi13.mk \
+    $(LOCAL_DIR)/violet/aospa_violet.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
@@ -102,4 +103,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_sunny-userdebug \
     aospa_surya-userdebug \
     aospa_vayu-userdebug \
-    aospa_xiaomi13-userdebug
+    aospa_xiaomi13-userdebug \
+    aospa_violet-userdebug
